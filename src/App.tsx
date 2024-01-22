@@ -12,9 +12,9 @@ function App() {
       <Header />
       <Home />
       <About />
+      <Journey />
       <Skills />
       <Projects />
-      <Journey />
       <Achievements />
       <Contact />
     </div>

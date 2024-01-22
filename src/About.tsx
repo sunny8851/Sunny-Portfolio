@@ -69,7 +69,7 @@ const About = () => {
               </div>
             </div>
             <div className="max-w-[550px] mt-8 ml-8">
-              I am an experienced Full-stack developer with over 1 years of
+              I am an experienced Full-stack developer with over 1+ years of
               professional experience. My skills include developing responsive
               and scalable user interfaces, as well as working with REST APIs
               and Database. I possess expertise in both frontend and backend
@@ -78,7 +78,7 @@ const About = () => {
             <ReactWhatsapp
               element="small"
               number="+91-9958693592"
-              message="Hello World!!!"
+              message="Hello Sunny!!!"
             >
               <button className="bg-blue-400 ml-8 p-2 mt-8 rounded-sm">
                 Let's Talk

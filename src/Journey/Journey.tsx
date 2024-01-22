@@ -42,8 +42,8 @@ const Education = [
 ];
 const Work = [
   {
-    Title: "Full-Stack developer",
-    Name: "Easync books",
+    Title: "Easync books",
+    Name: "Full-Stack developer",
     Location: "NOIDA,UP",
     Date: "Sep 23 - Present",
   },
