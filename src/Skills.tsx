@@ -122,6 +122,7 @@ const Backend = [
   { title: "Express.JS" },
   { title: "MongoDB" },
   { title: "SQL" },
+  { title: "AWS" },
   { title: "Firebase" },
   { title: "Rest API" },
 ];

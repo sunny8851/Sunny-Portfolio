@@ -42,18 +42,17 @@ const Education = [
 ];
 const Work = [
   {
+    Title: "Ant Cloud",
+    Name: "Software engineer-Full stack",
+    Location: "Delhi",
+    Date: "March 24 - Present",
+  },
+  {
     Title: "Easync books",
     Name: "Full-Stack developer",
     Location: "NOIDA,UP",
-    Date: "Sep 23 - Present",
+    Date: "April 23 - March 24",
   },
-  {
-    Title: "Parentune",
-    Name: "SDE-1",
-    Location: "Gurgaon, HR",
-    Date: "June 23 - Sep 23",
-  },
-
   {
     Title: "Parentune",
     Name: "Frontend Developer Intern",

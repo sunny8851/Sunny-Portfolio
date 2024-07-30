@@ -32,7 +32,7 @@ const About = () => {
                 >
                   <EmojiEventsIcon />
                   <div className="mt-2 text-lg">Experince</div>
-                  <div className="text-sm">1+ Year</div>
+                  <div className="text-sm">2+ Year</div>
                 </div>
               </div>
               <div className="relative text-center items-center   h-40 w-40 rounded-md bg-red-300">
@@ -69,7 +69,7 @@ const About = () => {
               </div>
             </div>
             <div className="max-w-[550px] mt-8 ml-8">
-              I am an experienced Full-stack developer with over 1+ years of
+              I am an experienced Full-stack developer with over 2+ years of
               professional experience. My skills include developing responsive
               and scalable user interfaces, as well as working with REST APIs
               and Database. I possess expertise in both frontend and backend

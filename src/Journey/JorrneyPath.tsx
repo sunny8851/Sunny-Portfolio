@@ -7,12 +7,12 @@ interface UsersListProps {
 
 interface User {
   Title?: string;
-  Name: string;
+  Name?: string;
   Location: string;
   Date: string;
   Score?: string;
 }
-const JorrneyPath = (data: UsersListProps) => {
+const JorrneyPath = (data: any) => {
   // console.log(data);
   return (
     <div className="bg-blue-500 max-w-[600px] w-full mx-auto p-5 mt-5 rounded-md pb-12">
