@@ -62,7 +62,7 @@ const achievements: Achievement[] = [
 const codingProfiles = [
   {
     name: "LeetCode",
-    url: "https://leetcode.com",
+    url: "https://leetcode.com/u/sunnyr29811/",
     icon: "🔥",
     color: "#f89820",
   },
