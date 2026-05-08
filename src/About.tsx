@@ -53,7 +53,7 @@ const About = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="relative flex-shrink-0"
           >
-            <div className="relative w-72 h-96 sm:w-80 sm:h-[420px] rounded-2xl overflow-hidden">
+            <div className="relative w-full h-[420px] sm:w-80 sm:h-[420px] rounded-2xl overflow-hidden">
               <img
                 src={profile}
                 alt="Sunny Kumar Ray"

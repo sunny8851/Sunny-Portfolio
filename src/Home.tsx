@@ -185,10 +185,10 @@ const Home = () => {
 
             <motion.div
               variants={itemVariants}
-              className="flex flex-wrap gap-4 justify-center lg:justify-start mb-8"
+              className="flex gap-4 justify-center lg:justify-start mb-8"
             >
-              <Link to="Projects" smooth offset={-64} duration={600}>
-                <button className="btn-primary">
+              <Link to="Projects" smooth offset={-64} duration={600} className="flex-1 lg:flex-none">
+                <button className="btn-primary w-full">
                   <span>View Projects</span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="relative z-10"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                 </button>
@@ -196,7 +196,7 @@ const Home = () => {
               <a
                 href="SUNNY_KUMAR_RAY_Resume1.pdf"
                 download
-                className="btn-outline"
+                className="btn-outline flex-1 lg:flex-none justify-center"
               >
                 Download Resume
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
@@ -313,7 +313,7 @@ const Home = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+          className="hidden sm:flex absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center gap-2"
         >
           <span className="text-xs text-slate-500 tracking-widest uppercase">Scroll</span>
           <motion.div

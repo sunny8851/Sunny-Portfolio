@@ -89,7 +89,7 @@ function SkillBar({ skill, inView }: { skill: Skill; inView: boolean }) {
           className="progress-fill"
           initial={{ width: 0 }}
           animate={{ width: inView ? `${skill.level}%` : 0 }}
-          transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
+          transition={{ duration: 0.9, ease: "easeOut", delay: 0 }}
           style={{ background: `linear-gradient(90deg, #6366f1, ${skill.color})` }}
         />
       </div>
@@ -155,9 +155,9 @@ const Skills = () => {
             {/* Progress bars */}
             <motion.div
               key={activeCategory}
-              initial={{ opacity: 0, y: 10 }}
+              initial={{ opacity: 0, y: 6 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.3 }}
+              transition={{ duration: 0.15 }}
               className="glass-card p-6"
             >
               <h3 className="text-lg font-semibold text-white mb-5 flex items-center gap-2">
