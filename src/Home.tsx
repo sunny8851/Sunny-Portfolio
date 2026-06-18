@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { Link } from "react-scroll";
 import profile from "./images/profile.png";
+import LazyImage from "./LazyImage";
 
 const socialLinks = [
   {
@@ -287,7 +288,7 @@ const Home = () => {
             />
 
             <div className="relative w-56 h-56 sm:w-72 sm:h-72 rounded-full overflow-hidden border-4 border-[rgba(99,102,241,0.3)]">
-              <img
+              <LazyImage
                 src={profile}
                 alt="Sunny Kumar Ray"
                 className="w-full h-full object-cover"

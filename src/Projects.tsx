@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import LazyImage from "./LazyImage";
 
 interface Project {
   title: string;
@@ -216,13 +217,13 @@ export default function Projects() {
               >
                 {/* Image */}
                 <div className="relative overflow-hidden h-48">
-                  <img
+                  <LazyImage
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     onError={(e) => {
                       (e.target as HTMLImageElement).src =
-                        "https://via.placeholder.com/600x300/1a1a2e/6366f1?text=Project";
+                        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='300' viewBox='0 0 600 300'%3E%3Crect fill='%231a1a2e' width='600' height='300'/%3E%3Ctext fill='%236366f1' font-family='sans-serif' font-size='20' x='50%25' y='50%25' text-anchor='middle' dy='.3em'%3EProject%3C/text%3E%3C/svg%3E";
                     }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-bg-primary/80 via-transparent to-transparent" />

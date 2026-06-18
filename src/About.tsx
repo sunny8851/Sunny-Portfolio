@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import profile from "./images/profile4.png";
+import LazyImage from "./LazyImage";
 
 const stats = [
   { value: "4+", label: "Years Experience", icon: "💼" },
@@ -54,7 +55,7 @@ const About = () => {
             className="relative flex-shrink-0"
           >
             <div className="relative w-full h-[420px] sm:w-80 sm:h-[420px] rounded-2xl overflow-hidden">
-              <img
+              <LazyImage
                 src={profile}
                 alt="Sunny Kumar Ray"
                 className="w-full h-full object-cover"
