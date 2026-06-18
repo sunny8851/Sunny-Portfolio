@@ -37,6 +37,8 @@ const categories: Category[] = [
     icon: "⚙️",
     skills: [
       { name: "Node.js", level: 90, color: "#68a063" },
+      { name: "Python", level: 80, color: "#68a063" },
+      { name: "Fast API", level: 80, color: "#68a063" },
       { name: "Express.js", level: 88, color: "#cccccc" },
       { name: "MongoDB", level: 85, color: "#47a248" },
       { name: "SQL / MySQL", level: 78, color: "#f29111" },
@@ -71,7 +73,7 @@ const categories: Category[] = [
 ];
 
 const techBadges = [
-  "React.js", "React Native", "Next.js", "Node.js", "Express.js",
+  "React.js", "Node.js","React Native", "Next.js", "Python","Fast API","Express.js",
   "TypeScript", "JavaScript", "MongoDB", "SQL", "Redux",
   "Tailwind CSS", "AWS EC2", "Firebase", "Socket.io", "Agora SDK",
   "REST API", "Git", "Material-UI", "C++", "Kalman Filter", "KNN",

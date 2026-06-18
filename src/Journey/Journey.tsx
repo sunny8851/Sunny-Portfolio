@@ -35,10 +35,18 @@ const timelineData: TimelineItem[] = [
     type: "work",
     title: "Full-Stack Developer",
     subtitle: "Easync Books",
-    period: "Apr 2023 – Mar 2024",
+    period: "Nov 2022 – Mar 2024",
     location: "Noida, UP",
     description:
       "Built accounting ERP software from scratch handling 1000+ daily bills — GST billing, invoice generation, role-based access (Admin/User/Sub-admin), sales & purchase analytics dashboard, email notification logs, and backend API architecture.",
+  },{
+    type: "work",
+    title: "Frontend Developer Intern",
+    subtitle: "Parentune",
+    period: "Mar 2022 – Aug 2022",
+    location: "Gurgaon,Hr",
+    description:
+      "Worked on frontend development tasks, including building user interfaces, implementing responsive designs, and collaborating with the backend team to integrate APIs.",
   },
 ];
 

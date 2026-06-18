@@ -77,7 +77,7 @@ const projects: Project[] = [
     title: "Factory Product Management System",
     description:
       "QR code-based product tracking system for manufacturing. Auto-generates QR codes per product, enables real-time status tracking throughout production, QR scanner integration, and role-based access control.",
-    image: "./images/smart.jpg",
+    image: "./images/factory.avif",
     tags: ["React.js", "Node.js", "QR Code", "MongoDB"],
     category: ["React", "Node.js"],
     github: null,
@@ -113,16 +113,16 @@ const projects: Project[] = [
     github: null,
     demo: null,
   },
-  {
-    title: "Talk Buddy – Chat App",
-    description:
-      "Real-time instant messaging platform supporting group chats and one-on-one conversations with live updates via Firebase.",
-    image: "./images/chat.jpg",
-    tags: ["React.js", "Firebase", "Material-UI"],
-    category: ["React", "Firebase"],
-    github: null,
-    demo: null,
-  },
+  // {
+  //   title: "Talk Buddy – Chat App",
+  //   description:
+  //     "Real-time instant messaging platform supporting group chats and one-on-one conversations with live updates via Firebase.",
+  //   image: "./images/chat.jpg",
+  //   tags: ["React.js", "Firebase", "Material-UI"],
+  //   category: ["React", "Firebase"],
+  //   github: null,
+  //   demo: null,
+  // },
 ];
 
 const filterTabs = ["All", "React", "Node.js","React Native"];

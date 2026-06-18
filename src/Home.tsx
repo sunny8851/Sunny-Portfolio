@@ -177,11 +177,9 @@ const Home = () => {
               variants={itemVariants}
               className="text-slate-400 text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8"
             >
-              I craft scalable, production-grade web & mobile applications with 4+ years of professional
-              experience. Currently building smart airport systems at{" "}
-              <span className="text-primary-light font-semibold">Dynasas, Dubai</span>. Passionate about
-              real-time systems, React Native, and solving complex engineering problems.
-            </motion.p>
+              Full-Stack Engineer with 4+ years of experience building scalable, production-grade web and mobile applications. Skilled in designing modern frontend experiences, developing robust backend services and APIs, and architecting high-performance systems. Currently building smart airport solutions at{" "}
+  <span className="text-primary-light font-semibold">Dynasas, Dubai</span>, with a focus on real-time systems and complex engineering challenges.
+</motion.p>
 
             <motion.div
               variants={itemVariants}
