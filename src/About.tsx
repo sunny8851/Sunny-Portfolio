@@ -103,13 +103,17 @@ const About = () => {
               className="glass-card p-6 mb-6"
             >
               <p className="text-slate-300 leading-relaxed text-base">
-                I'm a passionate <span className="text-primary-light font-semibold">Full-Stack Developer</span> with over{" "}
-                <span className="text-secondary font-semibold">4+ years of professional experience</span> building scalable,
-                production-grade web and mobile applications. Currently working at <span className="text-primary-light font-semibold">Dynasas, Dubai</span> on smart airport systems.
+                I'm a <span className="text-primary-light font-semibold">Java Backend & Full-Stack Developer</span> with over{" "}
+                <span className="text-secondary font-semibold">4+ years of professional experience</span> designing and delivering
+                high-performance backend systems and modern full-stack applications using{" "}
+                <span className="text-primary-light font-semibold">Java, Spring Boot, Microservices</span> and{" "}
+                <span className="text-primary-light font-semibold">React.js</span>. Currently working as Sr. Software Developer at{" "}
+                <span className="text-primary-light font-semibold">Dynasas</span>, building the AITS smart trolley system for Dubai International Airport.
               </p>
               <p className="text-slate-400 leading-relaxed text-sm mt-3">
-                I've built real-time systems (Socket.io, Agora), cross-platform mobile apps (React Native), indoor navigation (KNN + Kalman Filter),
-                ERP software (1000+ daily bills), and cloud infrastructure on AWS EC2. Competitive programmer with 500+ problems on LeetCode & GFG.
+                I architect secure, event-driven microservices with Spring Security, JWT, Apache Kafka, and Redis caching, alongside
+                real-time systems (Socket.io, Agora), cross-platform mobile apps (React Native), indoor navigation (Kalman Filter + KNN),
+                and cloud-native deployments on AWS with Docker. Competitive programmer with 500+ problems solved on LeetCode & GFG.
               </p>
             </motion.div>
 
@@ -121,10 +125,10 @@ const About = () => {
               className="flex flex-wrap gap-3 mb-6"
             >
               {[
-              { label: "📍 Dubai / Delhi, India" },
+              { label: "📍 Delhi NCR, India" },
               { label: "📱 +91-9958693592" },
                 { label: "📧 sunnyr29811@gmail.com" },
-                
+                // { label: "🟢 Notice Period: Immediate" },
               ].map((item) => (
                 <span
                   key={item.label}
@@ -143,7 +147,7 @@ const About = () => {
               className="flex gap-4 flex-wrap"
             >
               <a
-                href="SUNNY_KUMAR_RAY_Resume1.pdf"
+                href="SUNNY_KUMAR_RAY_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary flex-1 justify-center textc"

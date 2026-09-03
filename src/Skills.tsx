@@ -16,19 +16,15 @@ interface Category {
 }
 
 const categories: Category[] = [
- 
   {
-    id: "frontend",
-    label: "Frontend",
-    icon: "🎨",
+    id: "languages",
+    label: "Languages",
+    icon: "🔤",
     skills: [
-      { name: "React.js", level: 93, color: "#61dafb" },
-      { name: "React Native", level: 82, color: "#61dafb" },
-      { name: "Next.js", level: 78, color: "#ffffff" },
-      { name: "Redux", level: 84, color: "#764abc" },
-      { name: "Tailwind CSS", level: 90, color: "#06b6d4" },
-      { name: "HTML/CSS", level: 95, color: "#e34c26" },
-      { name: "Material-UI", level: 82, color: "#007fff" },
+      { name: "Java (8, 11, 17)", level: 92, color: "#f89820" },
+      { name: "JavaScript", level: 90, color: "#f7df1e" },
+      { name: "TypeScript", level: 82, color: "#3178c6" },
+      { name: "SQL", level: 85, color: "#4479a1" },
     ],
   },
   {
@@ -36,47 +32,76 @@ const categories: Category[] = [
     label: "Backend",
     icon: "⚙️",
     skills: [
-      { name: "Node.js", level: 90, color: "#68a063" },
-      { name: "Python", level: 80, color: "#68a063" },
-      { name: "Fast API", level: 80, color: "#68a063" },
-      { name: "Express.js", level: 88, color: "#cccccc" },
-      { name: "MongoDB", level: 85, color: "#47a248" },
-      { name: "SQL / MySQL", level: 78, color: "#f29111" },
-      { name: "REST API", level: 92, color: "#6366f1" },
+      { name: "Spring Boot", level: 92, color: "#6db33f" },
+      { name: "Spring Security", level: 85, color: "#6db33f" },
+      { name: "Spring Data JPA / Hibernate", level: 85, color: "#59666c" },
+      { name: "Microservices / REST APIs", level: 93, color: "#6366f1" },
+      { name: "JWT / OAuth 2.0", level: 85, color: "#d63aff" },
+      { name: "Node.js", level: 88, color: "#68a063" },
       { name: "Socket.io", level: 85, color: "#010101" },
-      { name: "AWS EC2", level: 70, color: "#ff9900" },
+      { name: "Elasticsearch", level: 75, color: "#005571" },
     ],
   },
-   {
-    id: "languages",
-    label: "Languages",
-    icon: "🔤",
+  {
+    id: "frontend",
+    label: "Frontend",
+    icon: "🎨",
     skills: [
-      { name: "JavaScript", level: 92, color: "#f7df1e" },
-      { name: "TypeScript", level: 82, color: "#3178c6" },
-      { name: "C++", level: 72, color: "#00599c" },
-      { name: "SQL", level: 78, color: "#f89820" },
+      { name: "React.js", level: 93, color: "#61dafb" },
+      { name: "React Native", level: 85, color: "#61dafb" },
+      { name: "Next.js", level: 78, color: "#ffffff" },
+      { name: "Redux / Context API", level: 84, color: "#764abc" },
+      { name: "Material UI", level: 82, color: "#007fff" },
+      { name: "Tailwind CSS", level: 88, color: "#06b6d4" },
+    ],
+  },
+  {
+    id: "databases",
+    label: "Databases",
+    icon: "🗄️",
+    skills: [
+      { name: "MySQL", level: 88, color: "#f29111" },
+      { name: "PostgreSQL", level: 78, color: "#336791" },
+      { name: "MongoDB", level: 85, color: "#47a248" },
+      { name: "Redis", level: 80, color: "#dc382d" },
+    ],
+  },
+  {
+    id: "cloud",
+    label: "Cloud & DevOps",
+    icon: "☁️",
+    skills: [
+      { name: "AWS (EC2, S3, Lambda)", level: 82, color: "#ff9900" },
+      { name: "Docker", level: 85, color: "#2496ed" },
+      { name: "Kubernetes", level: 65, color: "#326ce5" },
+      { name: "Apache Kafka", level: 80, color: "#231f20" },
+      { name: "Linux", level: 80, color: "#fcc624" },
+      { name: "CI/CD", level: 75, color: "#6366f1" },
     ],
   },
   {
     id: "tools",
-    label: "Tools & Others",
+    label: "Tools & Concepts",
     icon: "🛠️",
     skills: [
       { name: "Git & GitHub", level: 90, color: "#f05032" },
-      { name: "Firebase", level: 78, color: "#ffca28" },
-      { name: "Agora SDK", level: 75, color: "#099dfd" },
-      { name: "DSA / Problem Solving", level: 82, color: "#a855f7" },
+      { name: "JUnit & Mockito", level: 78, color: "#25a162" },
+      { name: "Postman / Swagger", level: 88, color: "#ff6c37" },
+      { name: "System Design / DSA", level: 82, color: "#a855f7" },
       { name: "Kalman Filter / KNN", level: 68, color: "#06b6d4" },
     ],
   },
 ];
 
 const techBadges = [
-  "React.js", "Node.js","React Native", "Next.js", "Python","Fast API","Express.js",
-  "TypeScript", "JavaScript", "MongoDB", "SQL", "Redux",
-  "Tailwind CSS", "AWS EC2", "Firebase", "Socket.io", "Agora SDK",
-  "REST API", "Git", "Material-UI", "C++", "Kalman Filter", "KNN",
+  "Java", "Spring Boot", "Spring Security", "Spring Data JPA", "Hibernate",
+  "Microservices", "REST APIs", "JWT", "OAuth 2.0", "Node.js", "Socket.io",
+  "Elasticsearch", "React.js", "React Native", "Next.js", "Redux",
+  "Tailwind CSS", "Material-UI", "MySQL", "PostgreSQL", "MongoDB", "Redis",
+  "AWS", "Docker", "Kubernetes", "Apache Kafka", "Linux", "CI/CD",
+  "JUnit", "Mockito", "Postman", "Swagger", "Git", "Maven",
+  "TypeScript", "JavaScript", "SQL", "Agora SDK", "Firebase",
+  "Kalman Filter", "KNN",
 ];
 
 function SkillBar({ skill, inView }: { skill: Skill; inView: boolean }) {
@@ -100,7 +125,7 @@ function SkillBar({ skill, inView }: { skill: Skill; inView: boolean }) {
 }
 
 const Skills = () => {
-  const [activeCategory, setActiveCategory] = useState("frontend");
+  const [activeCategory, setActiveCategory] = useState("backend");
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: true });
 
   const currentCategory = categories.find((c) => c.id === activeCategory)!;
@@ -216,9 +241,9 @@ const Skills = () => {
             {/* Domain highlights */}
             <div className="grid grid-cols-3 gap-3">
               {[
-                { icon: "🌐", label: "Web Dev" },
-                { icon: "📊", label: "DSA" },
-                { icon: "☁️", label: "Cloud" },
+                { icon: "☕", label: "Java Backend" },
+                { icon: "🧩", label: "Microservices" },
+                { icon: "☁️", label: "Cloud Native" },
               ].map((d) => (
                 <div
                   key={d.label}

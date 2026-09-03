@@ -62,7 +62,7 @@ const Header = () => {
             </Link>
           ))}
           <a
-            href="SUNNY_KUMAR_RAY_Resume1.pdf"
+            href="SUNNY_KUMAR_RAY_Resume.pdf"
             download
             className="btn-primary ml-4 !py-2 !px-5 !text-sm"
           >
@@ -127,7 +127,7 @@ const Header = () => {
                 </motion.div>
               ))}
               <a
-                href="SUNNY_KUMAR_RAY_Resume1.pdf"
+                href="SUNNY_KUMAR_RAY_Resume.pdf"
                 download
                 className="btn-primary mt-2 justify-center !text-sm"
                 onClick={() => setMobileOpen(false)}

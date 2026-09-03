@@ -19,8 +19,8 @@ const projects: Project[] = [
     description:
       "A cross-platform dating app with real-time user matching based on preferences, likes, age, gender, and distance. Features live video calling (Agora SDK), real-time chat via Socket.io, and seamless cross-platform experience on iOS & Android.",
     image: "./images/ximoo1.webp",
-    tags: ["React Native", "Node.js", "Socket.io", "MongoDB", "Agora SDK"],
-    category: ["Node.js", "React Native"],
+    tags: ["Java", "Spring Boot", "React Native", "Socket.io", "MongoDB", "Agora SDK"],
+    category: ["Java", "React Native"],
     github: null,
     demo: "https://play.google.com/store/apps/details?id=com.cherryme&hl=en",
   },
@@ -29,8 +29,8 @@ const projects: Project[] = [
     description:
       "Indoor mapping & navigation system for airports (similar to Google Maps). Uses WiFi RSSI positioning, Accelerometer tracking, Kalman Filter, and KNN for real-time trolley tracking, shortest-path navigation, and an integrated food ordering system.",
     image: "./images/aits.jpg",
-    tags: ["Node.js", "React.js", "KNN", "Kalman Filter", "Socket.io"],
-    category: ["Node.js", "React Native"],
+    tags: ["Java", "Spring Boot", "React Native", "Kalman Filter", "KNN"],
+    category: ["Java", "React Native"],
     github: null,
     demo: null,
   },
@@ -39,8 +39,8 @@ const projects: Project[] = [
     description:
       "All-in-one accounting platform similar to Zoho Books / Tally ERP. Handles 1000+ daily bills with GST billing, e-invoicing, vendor management, BillPay reconciliation, role-based access (Admin/Sub-admin/User), and a real-time sales & purchase analytics dashboard.",
     image: "./images/easync.png",
-    tags: ["React.js", "Node.js", "MongoDB", "Express", "SQL"],
-    category: ["React", "Node.js"],
+    tags: ["Java", "Spring Boot", "React.js", "Node.js", "MySQL"],
+    category: ["Java", "React"],
     github: null,
     demo: "https://www.easyncbooks.com/",
   },
@@ -49,8 +49,8 @@ const projects: Project[] = [
     description:
       "Developed and managed a live cloud platform offering virtual PCs for individuals and organizations, supporting 200+ concurrent users with a hassle-free computing experience. Includes an affiliate dashboard tracking commissions & payouts, organization management software, and AWS EC2 infrastructure for scalability and reliability.",
     image: "./images/antcloud.png",
-    tags: ["React.js", "Node.js", "AWS EC2", "MongoDB", "Express"],
-    category: ["React", "Node.js"],
+    tags: ["Java", "Spring Boot", "React.js", "Node.js", "AWS EC2"],
+    category: ["Java", "React"],
     github: null,
     demo: "https://antcloud.co/",
   },
@@ -59,8 +59,8 @@ const projects: Project[] = [
     description:
       "Cloud-based virtual PC service supporting 200+ concurrent users for individuals and organizations. Delivers a hassle-free, fast computing experience via browser with AWS EC2 infrastructure for scalability and reliability.",
     image: "./images/disney.png",
-    tags: ["React.js", "Node.js", "AWS EC2", "MongoDB"],
-    category: ["React", "Node.js"],
+    tags: ["Java", "Spring Boot", "React.js", "AWS EC2"],
+    category: ["Java", "React"],
     github: null,
     demo: null,
   },
@@ -69,8 +69,8 @@ const projects: Project[] = [
     description:
       "Comprehensive dashboard for affiliate users tracking commissions, revenue from affiliate links, payout records, automated payments, and coupon/offer code validation.",
     image: "./images/Affilate.png",
-    tags: ["React.js", "Node.js", "MongoDB"],
-    category: ["React", "Node.js"],
+    tags: ["Java", "Spring Boot", "React.js", "MongoDB"],
+    category: ["Java", "React"],
     github: null,
     demo: null,
   },
@@ -126,7 +126,7 @@ const projects: Project[] = [
   // },
 ];
 
-const filterTabs = ["All", "React", "Node.js","React Native"];
+const filterTabs = ["All", "Java", "React", "React Native"];
 
 const cardVariants = {
   hidden: { opacity: 0, y: 30 },

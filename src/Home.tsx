@@ -156,11 +156,13 @@ const Home = () => {
             >
               <TypeAnimation
                 sequence={[
-                  "Full-Stack Developer",
+                  "Java Backend Developer",
+                  2000,
+                  "Java Full-Stack Developer",
+                  2000,
+                  "Spring Boot & Microservices",
                   2000,
                   "React Native Engineer",
-                  2000,
-                  "Node.js Backend Expert",
                   2000,
                   "Working in Dubai 🌍",
                   2000,
@@ -178,8 +180,8 @@ const Home = () => {
               variants={itemVariants}
               className="text-slate-400 text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8"
             >
-              Full-Stack Engineer with 4+ years of experience building scalable, production-grade web and mobile applications. Skilled in designing modern frontend experiences, developing robust backend services and APIs, and architecting high-performance systems. Currently building smart airport solutions at{" "}
-  <span className="text-primary-light font-semibold">Dynasas, Dubai</span>, with a focus on real-time systems and complex engineering challenges.
+              Java Backend & Full-Stack Developer with 4+ years of experience designing and delivering high-performance backend systems using Java, Spring Boot, and Microservices, alongside modern frontend experiences with React.js. Currently building smart airport solutions at{" "}
+  <span className="text-primary-light font-semibold">Dynasas</span>, on-site in Dubai, with a focus on real-time systems and complex engineering challenges.
 </motion.p>
 
             <motion.div
@@ -193,7 +195,7 @@ const Home = () => {
                 </button>
               </Link>
               <a
-                href="SUNNY_KUMAR_RAY_Resume1.pdf"
+                href="SUNNY_KUMAR_RAY_Resume.pdf"
                 download
                 className="btn-outline flex-1 lg:flex-none justify-center"
               >

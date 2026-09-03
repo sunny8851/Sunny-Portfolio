@@ -15,39 +15,40 @@ interface TimelineItem {
 const timelineData: TimelineItem[] = [
   {
     type: "work",
-    title: "Software Engineer",
+    title: "Sr. Software Developer (Java Full Stack)",
     subtitle: "Dynasas",
     period: "Jan 2025 – Present",
-    location: "Dubai & Gurugram",
+    location: "Gurugram (on-site in Dubai)",
     description:
-      "Worked on-site in Dubai for 6 months on the AITS (Airport Intelligent Trolley System) — built indoor mapping (WiFi RSSI, Accelerometer, Kalman Filter, KNN), real-time trolley tracking, shortest-path navigation, and a food ordering system. Also built Ximoo, a cross-platform dating app (React Native + Node.js + Socket.io + Agora SDK).",
+      "Architected AITS (Airport Intelligent Trolley System) for Dubai International Airport as independently deployable Java Spring Boot microservices with an API Gateway and service discovery — processing WiFi RSSI, accelerometer & gyroscope data via Kalman Filter and KNN for real-time indoor navigation and trolley tracking. Secured services with Spring Security/JWT and Redis caching, cutting API latency by ~40%, and added circuit breaker/retry patterns for resilience. Also built Ximoo, a cross-platform dating app (Java, Spring Boot, Node.js, React Native, Socket.IO, Elasticsearch).",
   },
   {
     type: "work",
-    title: "Full-Stack Developer",
+    title: "Software Developer (Java Full Stack)",
     subtitle: "Ant Cloud",
     period: "Mar 2024 – Jan 2025",
     location: "Delhi, India",
     description:
-      "Built a Virtual PC platform supporting 200+ concurrent users. Developed an Affiliate Dashboard tracking commissions, payouts & coupon validation. Created Organization Management Software and worked with AWS EC2 for cloud infrastructure deployment.",
+      "Built a Java Spring Boot Virtual PC platform supporting 200+ concurrent users. Developed an Affiliate Dashboard tracking commissions, payouts & coupon validation, and an Organization Management platform with RBAC and workflow automation — all with React.js dashboards. Deployed and managed on AWS EC2 and Linux servers.",
   },
   {
     type: "work",
-    title: "Full-Stack Developer",
+    title: "Full Stack Developer",
     subtitle: "Easync Books",
-    period: "Nov 2022 – Mar 2024",
+    period: "Aug 2022 – Mar 2024",
     location: "Noida, UP",
     description:
-      "Built accounting ERP software from scratch handling 1000+ daily bills — GST billing, invoice generation, role-based access (Admin/User/Sub-admin), sales & purchase analytics dashboard, email notification logs, and backend API architecture.",
-  },{
-    type: "work",
-    title: "Frontend Developer Intern",
-    subtitle: "Parentune",
-    period: "Mar 2022 – Aug 2022",
-    location: "Gurgaon,Hr",
-    description:
-      "Worked on frontend development tasks, including building user interfaces, implementing responsive designs, and collaborating with the backend team to integrate APIs.",
-  },
+      "Built the Easync Books GST accounting & billing platform from scratch (Java Spring Boot, Node.js) handling 10,000+ daily transactions — invoicing, taxation, financial reporting, RBAC (Admin/Sub-admin/User), and React.js analytics dashboards. Automated email notifications, payment reminders, and audit logging.",
+  }
+  // ,{
+  //   type: "work",
+  //   title: "Frontend Developer Intern",
+  //   subtitle: "Parentune",
+  //   period: "Mar 2022 – Aug 2022",
+  //   location: "Gurgaon,Hr",
+  //   description:
+  //     "Worked on frontend development tasks, including building user interfaces, implementing responsive designs, and collaborating with the backend team to integrate APIs.",
+  // },
 ];
 
 const educationData: TimelineItem[] = [
